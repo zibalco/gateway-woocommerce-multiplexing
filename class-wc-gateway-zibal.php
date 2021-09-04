@@ -356,10 +356,6 @@ function Load_Zibal_Gateway()
 
                 $result = $this->SendRequestToZibal('request', json_encode($data));
 
-
-                echo"<pre>";
-                var_dump($data); die();
-
                 if ($result === false) {
                     echo "cURL Error";
                 } else {
